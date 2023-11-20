@@ -2,6 +2,9 @@
     --primary-color: #fff;
     --secondary-color: #ce3535;
     --tertiary-color: #644d4d;
+    --logo-font: 'Josefin Sans';
+    --subheader-font: Quicksand;
+    --text-font: Montserrat;
 }
 
 body {
@@ -10,4 +13,9 @@ body {
 
 img[src$='.svg'] {
     width: 50px;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: #fff;
 }
